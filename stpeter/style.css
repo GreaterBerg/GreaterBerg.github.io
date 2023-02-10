@@ -1,0 +1,52 @@
+html {
+box-sizing: border-box;
+font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+*{
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background: #FAD3E7;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    color: #EF3E5C;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.heart-image{
+    width: 400px;
+}
+.landing-text{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    color: #EF3E5C;
+}
