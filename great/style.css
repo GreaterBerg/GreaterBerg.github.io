@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .landing-text{
     font-weight: 500;
@@ -93,10 +93,10 @@ body{
 }
 
 .wishes{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .first-wish{
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 .wish-section{
     height: 100vh;
@@ -107,8 +107,8 @@ body{
 }
 
 .firstDiv{
-    width: 361px;
-    height: 361px;
+    width: 300px;
+    height: 300px;
     background-color: #01D5C7;
     position: relative;
     display: flex;
@@ -120,15 +120,15 @@ body{
     color: #09766F;
     font-style: normal;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
     vertical-align: middle;
-    line-height: 361px;
+    line-height: 300px;
 }
 .glass{
     position: absolute;
-    width: 321px;
-    height: 321px;
+    width: 260px;
+    height: 260px;
     left: 5.54%;
     right: 5.54%;
     top: 5.54%;
@@ -147,8 +147,8 @@ body{
 }
 
 .secondDiv{
-    width: 361px;
-    height: 361px;
+    width: 300px;
+    height: 300px;
     background-color: #01D5C7;
     position: relative;
     display: flex;
@@ -171,12 +171,12 @@ body{
 .btn-second{
     background-color: transparent;
     border: none;
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
 }
 .thirdDiv{
-    width: 361px;
-    height: 361px;
+    width: 300px;
+    height: 300px;
     background-color: #01D5C7;
     position: relative;
     display: flex;
@@ -189,8 +189,8 @@ body{
 }
 
 .fourDiv{
-    width: 361px;
-    height: 361px;
+    width: 300px;
+    height: 300px;
     background-color: #01D5C7;
     position: relative;
     display: flex;
@@ -200,8 +200,8 @@ body{
 .btn-four{
     background-color: transparent;
     border: none;
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
 }
 
 
