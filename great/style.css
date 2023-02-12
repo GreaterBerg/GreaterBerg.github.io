@@ -135,7 +135,7 @@ body{
     bottom: 5.54%;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.35), 10px 10px 20px rgba(0, 0, 0, 0.13);
-    backdrop-filter: blur(9.5px);
+    
     border-radius: 30px;
     display: flex;
     justify-content: center;
