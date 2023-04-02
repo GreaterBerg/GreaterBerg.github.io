@@ -40,3 +40,4 @@ clear.addEventListener('click', () => {
     counter_time = 0;
     mark.innerHTML = 'n/a';
 })
+

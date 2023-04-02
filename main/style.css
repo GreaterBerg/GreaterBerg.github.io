@@ -8,7 +8,7 @@ box-sizing: inherit;
 }
 
 button{
-    margin: 2px 2px 2px 2px;
+    margin: 0.2em 0.2em 0.2em 0.2em;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -33,6 +33,9 @@ list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 40% 0 0 0;
+    font-size: 270%;
+    font-weight: 300;
 }
 .mark:before{
     content: "\00a0";
@@ -43,14 +46,76 @@ list-style: none;
     justify-content: center;
 }
 .input-mark {
-    width: 150px;
-    height: 15px;
-    border: 1px solid black;
-    margin: 10px 0 10px 0;
+    width: 15em;
+    height: 2.5em;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 1.4em 0 0.5em 0;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .buttons{
+    margin: 1.7em 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.markfive {
+    width: 4em;
+    height: 4em;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 1px solid purple;
+}
+.markfour {
+    width: 4em;
+    height: 4em;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 1px solid green;
+}
+.markthree {
+    width: 4em;
+    height: 4em;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 1px solid orange;
+}
+.marktwo {
+    width: 4em;
+    height: 4em;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 1px solid red;
+}
+
+.nodes{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accept {
+    color: blue;
+    width: 8em;
+    height: 3em;
+    background-color: white;
+    border-radius: 30%;
+    font-size: 16px;
+    border: 1px solid blue;
+}
+.clear {
+    color: blue;
+    width: 8em;
+    height: 3em;
+    background-color: white;
+    border-radius: 30%;
+    font-size: 16px;
+    border: 1px solid blue;
 }
