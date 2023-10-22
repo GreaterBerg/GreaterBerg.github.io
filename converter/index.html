@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
     <title>coverter</title>
 </head>
 <body>
     
-    <button class="rub__btn-first">RUB</button>
-    <button class="usd__btn-first">USD</button>
-    <button class="eur__btn-first">EUR</button>
+    <div class="container">
+        <div class="first__container">
+            <input type="number" class="first__value">
 
-    <input type="number" class="first__value">
+            <button class="rub__btn-first">RUB</button>
+            <button class="usd__btn-first">USD</button>
+            <button class="eur__btn-first">EUR</button>
+        </div>
+        
+        <div class="convert">
+            <button class="convert__btn">
+                <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </button>
+        </div>
 
-    <button class="convert__btn">-></button>
+        <div class="second__container">
+            <input type="number" class="second__value">
 
-    <input type="number" class="second__value">
-
-    <button class="rub__btn-second">RUB</button>
-    <button class="usd__btn-second">USD</button>
-    <button class="eur__btn-second">EUR</button>
-
+            <button class="rub__btn-second">RUB</button>
+            <button class="usd__btn-second">USD</button>
+            <button class="eur__btn-second">EUR</button>
+        </div>
+    </div>
     <script src="https://www.cbr-xml-daily.ru/money.js"></script>
     <script src="script.js"></script>
 </body>
